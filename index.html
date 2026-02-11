@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galaxian IA</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hud">
+        <h1>Galaxian con IA</h1>
+        <p>
+          La nave principal se mueve sola con IA y dispara automáticamente.
+        </p>
+        <ul>
+          <li><strong>Tecla 1:</strong> agrega 10 naves enemigas normales.</li>
+          <li><strong>Tecla 2:</strong> agrega 10 naves de rango medio.</li>
+          <li><strong>Tecla 3:</strong> agrega 10 naves de rango alto.</li>
+          <li><strong>Tecla 4:</strong> otorga una vida extra.</li>
+        </ul>
+        <div class="stats">
+          <span id="score">Puntaje: 0</span>
+          <span id="lives">Vidas: 3</span>
+          <span id="enemies">Enemigos: 0</span>
+        </div>
+      </section>
+      <canvas id="game" width="900" height="600"></canvas>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
